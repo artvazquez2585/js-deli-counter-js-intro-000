@@ -20,7 +20,7 @@ function currentLine(katzDeliLine){
         message = `${message} ${i+1}. ${katzDeliLine[i]}`
       }
       else{
-        message = `${message} ${i+1}. ${katzDeliLine[i],}`
+        message = `${message} ${i+1}. ${katzDeliLine[i]},`
       }
     }
     return message
