@@ -5,7 +5,7 @@ return `Welcome, ${newPersonName}. You are number ${katzDeli.length} in line.`
 function nowServing(katzDeliLine){
   if (katzDeliLine.length > 0){
     var nowServingCustomer = katzDeliLine[0];
-    katzDeliLine.pop();
+    katzDeliLine.shift();
     return `Currently serving ${nowServingCustomer}.`;
   }
   else{
