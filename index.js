@@ -17,8 +17,8 @@ function currentLine(katzDeliLine){
     let message = "The line is currently:"
     for(let i=0, i < katzDeliLine.length, i++){
       message = `${message} ${i+1}.${katzDeliLine[i],}`
-
     }
+    return message
   }
   else{
     return "The line is currently empty."
