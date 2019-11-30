@@ -6,7 +6,7 @@ function nowServing(katzDeliLine){
   if (katzDeliLine.length > 0){
     var nowServingCustomer = katzDeliLine[0];
     katzDeliLine.pop();
-    return `Currently serving ${nowServingCustomer}`;
+    return `Currently serving ${nowServingCustomer}.`;
   }
   else{
     return `There is nobody waiting to be served!`;
